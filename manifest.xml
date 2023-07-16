@@ -21,5 +21,11 @@
 
     <!-- Hardware -->   
     <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="LineageOS-18.1" />
+
+    <!-- board support package (bsp) -->
+    <project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_exynos7870" path="hardware/samsung_slsi/exynos7870" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
+    <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="samsungexynos7870" revision="lineage-18.1-universal7870-vndk-vendor" />
 		
 </manifest>
