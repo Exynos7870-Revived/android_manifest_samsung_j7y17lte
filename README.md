@@ -1,4 +1,4 @@
-# crDroid
+# LineageOS-17.1
 
 ### How to build ###
 
@@ -7,7 +7,7 @@
 $ mkdir LineageOS && cd LineageOS
 
 # Init repo
-$ repo init -u https://github.com/LineageOS/android.git -b 17.1
+$ repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
 
 # Clone my local repo
 $ git clone https://github.com/Exynos7870-Revived/android_manifest_samsung_j7y17lte.git -b LineageOS-17.1 .repo/local_manifests
