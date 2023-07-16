@@ -7,7 +7,7 @@
 $ mkdir LineageOS && cd LineageOS
 
 # Init repo
-$ repo init -u https://github.com/LineageOS-UL/android.git -b 19.1
+$ repo init -u https://github.com/LineageOS-UL/android.git -b lineage-19.1
 
 # Clone my local repo
 $ git clone https://github.com/Exynos7870-Revived/android_manifest_samsung_j7y17lte.git -b LineageOS-19.1 .repo/local_manifests
